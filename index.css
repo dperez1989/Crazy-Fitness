@@ -1,0 +1,383 @@
+
+body{
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+
+
+
+@font-face {
+    font-family: 'dm_sans';
+    src: url('./practice-grid/dmsans-bold-webfont.woff2') format('woff2'),
+         url('./practice-grid/dmsans-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'dm_sans';
+    src: url('./practice-grid/dmsans-bolditalic-webfont.woff2') format('woff2'),
+         url('./practice-grid/dmsans-bolditalic-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'dm_sans';
+    src: url('./practice-grid/dmsans-italic-webfont.woff2') format('woff2'),
+         url('./practice-grid/dmsans-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'dm_sans';
+    src: url('./practice-grid/dmsans-medium-webfont.woff2') format('woff2'),
+         url('./practice-grid/dmsans-medium-webfont.woff') format('woff');
+    font-weight: medium;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'dm_sans';
+    src: url('./practice-grid/dmsans-mediumitalic-webfont.woff2') format('woff2'),
+         url('./practice-grid/dmsans-mediumitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'dm_sans';
+    src: url('./practice-grid/dmsans-regular-webfont.woff2') format('woff2'),
+         url('./practice-grid/dmsans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* navigations section */
+
+nav{
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid black;
+}
+
+
+.nav-container{
+    position: relative;
+    top: 16px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+
+h1{
+    position: relative;
+    right: 20px;
+    font-family: "dm_sans", sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 48px;
+    color:  rgba(0, 0, 128, 1);
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 1;
+}
+
+h3{
+    font-family: "dm_sans", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 48px;
+    margin: 0px 0px;
+}
+
+li{
+    font-family: "dm_sans", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    list-style: none;
+    padding: 0rem 1rem;
+    align-self: center;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 1;
+}
+
+.nav-items-button-one{
+    padding: 25px 25px;
+    background-color: rgba(0, 0, 128, 1);
+    color: rgba(255, 255, 255, 1);
+    font-family: "dm_sans", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.nav-items-button-two{
+    padding: 25px 25px;
+    background-color:rgba(255, 166, 0, 1);
+    color: rgba(0, 0, 128, 1);
+    font-family: "dm_sans", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.first-image{
+    display: flex;
+}
+img{
+    position: relative;
+    bottom: 34px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 1;
+}
+
+/* Advertising Container */
+
+h2{
+    color: rgba(255, 166, 0, 1);
+    font-family: "dm_sans", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+h5{
+    font-family: "dm_sans", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+p{
+    font-size: 16px;
+    font-family: "dm_sans", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 8px;
+}
+
+.highlight-price{
+    color: grey;
+    font-size: 18px;
+}
+
+.button-one{
+    border: none;
+    padding: 15px 20px;
+    background-color: rgba(255, 166, 0, 1);
+    color: rgba(0, 0, 128, 1);
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.button-two{
+    border: none;
+    padding: 15px 20px;
+    background-color: rgba(255, 166, 0, 1);
+    color: rgba(0, 0, 128, 1);
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.button-three{
+    border: none;
+    padding: 15px 20px;
+    background-color: rgba(255, 166, 0, 1);
+    color: rgba(0, 0, 128, 1);
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.advertise-grid-container{
+    position: relative;
+    top: 10px;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 3fr 2fr 3fr;
+
+}
+
+.advertise-grid-items{
+    background-color: rgba(0, 0, 128, 1);
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.grid-item-one{
+    text-align: center;
+    grid-row: 1 / 3;
+    grid-column: 2 / 8;
+}
+
+.grid-item-two{
+    text-align: center;
+    grid-row: 1 / 3;
+    grid-column: -8 / -2 ;
+
+}
+
+.grid-item-three{
+    padding-bottom: 20px;
+    text-align: center;
+    grid-row: 3 / 6;
+    grid-column: 2 / 14;
+}
+
+
+/* List of Excercise */
+
+.container-exercise{
+    position: relative;
+    top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    margin: 0px 0px;
+}
+
+.list-exercise{
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 1;
+    width: 1400px;
+    height: 900px;
+}
+
+
+
+h4{
+    position: relative;
+    top: 350px;
+    font-family: "dm_sans", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    font-size: 60px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.weights{
+    background-image: url('weights-section.jpg');
+    background-repeat: no-repeat;
+    background-size: 1400px 1000px;
+    filter: brightness(100%);
+}
+
+.cardio{
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(Cardio-list.jpg);
+    background-repeat: no-repeat;
+    background-size: 1400px 1000px;
+}
+
+.kickboxing{
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(kickboxing-list.jpg);
+    background-repeat: no-repeat;
+    background-size: 1400px 1000px;
+}
+
+.zumba{
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(Zumba-list.jpg);
+    background-repeat: no-repeat;
+    background-size: 1400px 1000px;
+}
+
+.aerobics{
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(aerobics-list.jpg);
+    background-repeat: no-repeat;
+    background-size: 1400px 1000px;
+}
+
+.yoga{
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(yoga-list.jpg);
+    background-repeat: no-repeat;
+    background-size: 1400px 1000px;
+}
+
+.swimming{
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(swimming-list.jpg);
+    background-repeat: no-repeat;
+    background-size: 1400px 1000px;
+}
+
+/* Footer */
+
+.footer-nav-container{
+    padding: 80px;
+    position: relative;
+    top: 30px;
+    background-color: rgb(32, 31, 31);
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: start;
+}
+
+.footer-nav-item{
+    padding: 0px 40px;
+    background-color: rgb(32, 31, 31);
+    color: rgba(255, 255, 255, 1);
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 1;
+}
+
+.button-container{
+    padding: 0px 20px;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-button-one{
+    position: relative;
+    top: 18px;
+    padding: 22px 22px;
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(0, 0, 128, 1);
+    border: none;
+    border-radius: 10px;
+    font-family: "dm_sans", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.footer-button-two{
+    position: relative;
+    top: 20px;
+    padding: 22px 22px;
+    background-color: rgba(255, 166, 0, 1);
+    color: rgba(0, 0, 128, 1);
+    border: none;
+    border-radius: 10px;
+    font-family: "dm_sans", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 18px;
+
+
+}
+
